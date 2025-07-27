@@ -1,0 +1,12 @@
+{
+    "transferencias":{
+        "3027":{
+            "ID del jugador transferido":"",
+            "Equipo de origen":"",
+            "Equipo de destino":"",
+            "Tipo de transferencia":"",
+            "Fecha de transferencia":""
+        }
+
+    }
+}

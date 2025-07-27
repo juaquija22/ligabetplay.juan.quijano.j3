@@ -1,0 +1,16 @@
+{
+    "equipos": {
+        "0425": {
+            "Nombre": "",
+            "fundacion": "",
+            "País": "",
+            "idliga": ""
+        }
+    },
+    "2143": {
+        "nombre": "s",
+        "fundacion": 33,
+        "pais": "s",
+        "idliga": 33
+    }
+}
