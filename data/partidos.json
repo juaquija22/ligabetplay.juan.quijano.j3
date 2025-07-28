@@ -1,13 +1,16 @@
-{
-    "partidos":{
-        "8768":{
-            "nombre":"",
-            "pais":"",
-            "fecha inicio":"",
-            "fecha final":""
-            
-        }
-
+[
+    {
+        "fecha": "agosto",
+        "local": "1001",
+        "visitante": "1002",
+        "goles_local": 7,
+        "goles_visitante": 7
+    },
+    {
+        "fecha": "agosto",
+        "local": "1001",
+        "visitante": "1002",
+        "goles_local": null,
+        "goles_visitante": null
     }
-}
- 
+]

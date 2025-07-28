@@ -1,16 +1,47 @@
 {
     "equipos": {
-        "0425": {
-            "Nombre": "",
-            "fundacion": "",
-            "País": "",
-            "idliga": ""
+        "1001": {
+            "nombre": "Bucaramanga",
+            "fundacion": 1949,
+            "pais": "Colombia",
+            "idliga": 101,
+            "jugadores": [
+                7245,
+                8163
+            ]
+        },
+        "1002": {
+            "nombre": "Nacional",
+            "fundacion": 1947,
+            "pais": "Colombia",
+            "idliga": 102,
+            "jugadores": [
+                7300,
+                8442
+            ]
+        },
+        "5610": {
+            "nombre": "kk",
+            "fundacion": 22,
+            "pais": "kk",
+            "idliga": 22,
+            "jugadores": []
+        },
+        "2355": {
+            "nombre": "goya",
+            "fundacion": 2000,
+            "pais": "col",
+            "idliga": 12345,
+            "jugadores": []
+        },
+        "1769": {
+            "nombre": "goyavier",
+            "fundacion": 2000,
+            "pais": "col",
+            "idliga": 0,
+            "jugadores": [
+                8942
+            ]
         }
-    },
-    "2143": {
-        "nombre": "s",
-        "fundacion": 33,
-        "pais": "s",
-        "idliga": 33
     }
 }

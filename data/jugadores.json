@@ -1,11 +1,70 @@
 {
-    "jugadores":{
-        "3257":{
-            "Nombre":"",
-            "posicion":"",
-            "numero dorsal":"",
-            "ID del equipo al que pertenece":""
+    "jugadores": {
+        "3257": {
+            "nombre": "",
+            "posicion": "",
+            "dorsal": "",
+            "ideq": ""
+        },
+        "9490": {
+            "nombre": "juan",
+            "posicion": "delantero",
+            "dorsal": 99,
+            "ideq": 1097494068
+        },
+        "2811": {
+            "nombre": "d",
+            "posicion": "d",
+            "dorsal": 4,
+            "ideq": 44
+        },
+        "1704": {
+            "nombre": "juan",
+            "posicion": "del",
+            "dorsal": 33,
+            "ideq": 838383
+        },
+        "6188": {
+            "nombre": "juan",
+            "posicion": "defensa",
+            "dorsal": 99,
+            "ideq": 13886716
+        },
+        "5778": {
+            "nombre": "juan",
+            "posicion": "s",
+            "dorsal": 22,
+            "ideq": 222
+        },
+        "8907": {
+            "nombre": "juan",
+            "posicion": "medio",
+            "dorsal": 12,
+            "ideq": 1234
+        },
+        "7245": {
+            "nombre": "d",
+            "posicion": "ddd",
+            "dorsal": 33,
+            "ideq": 1234
+        },
+        "7469": {
+            "nombre": "s",
+            "posicion": "s",
+            "dorsal": 22,
+            "ideq": 22
+        },
+        "6292": {
+            "nombre": "juan",
+            "posicion": "del",
+            "dorsal": 22,
+            "ideq": 12345
+        },
+        "8942": {
+            "nombre": "juan",
+            "posicion": "del",
+            "dorsal": 10,
+            "ideq": 0
         }
-
     }
 }

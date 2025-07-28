@@ -1,8 +1,14 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+
 
 from utils.screencontrollers import limpiar_pantalla
-from utils.screencontrollers import pausar_pantalla
+from utils.screencontrollers import pausar
 import controllers.equipos as eq
-from config import DB_PATH
+import controllers.jugadores as jg
+import controllers.estadisticas as es
 
 
 def main_menu():
@@ -31,24 +37,28 @@ if __name__ == "__main__":
                 opcion = main_menu()
                 if opcion == 1:
                      eq.equipos()
-                     pausar_pantalla()
+                     pausar()
                        
                 elif opcion == 2:
-                       pass
+                       eq.listar_equipos()
+                       pausar()
                 elif opcion == 3:
-                       pass
+                       jg.jugadores()
+                       pausar()
                 elif opcion == 4:
-                       pass
+                       jg.listar_jugadores()
+                       pausar()
                 elif opcion == 5:
                        pass
                 elif opcion == 6:
-                       pass
+                       es.estadisticas_menu()
+                      
                 elif opcion == 0:
                        print ('\n Saliendo')
                        break
                 else:
                        print ('\n Opcion no valida')
-                       pausar_pantalla()
+                       pausar()
 
 
 
