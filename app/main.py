@@ -1,3 +1,11 @@
+"""
+Autor: Juan Pablo Quijano
+Fecha: 2025-07-27
+Descripción: este proyecto consiste en una liga betplay donde se pueden hacer transferencias de jugadores crear jugadores crear equipos
+"""
+
+
+
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -9,6 +17,7 @@ from utils.screencontrollers import pausar
 import controllers.equipos as eq
 import controllers.jugadores as jg
 import controllers.estadisticas as es
+import controllers.transferencias as tran
 
 
 def main_menu():
@@ -49,7 +58,8 @@ if __name__ == "__main__":
                        jg.listar_jugadores()
                        pausar()
                 elif opcion == 5:
-                       pass
+                       tran.transferir_jugador()
+                       
                 elif opcion == 6:
                        es.estadisticas_menu()
                       
